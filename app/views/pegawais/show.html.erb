@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @pegawai.nama %>
+</p>
+
+<p>
+  <strong>Alamat:</strong>
+  <%= @pegawai.alamat %>
+</p>
+
+<%= link_to 'Edit', edit_pegawai_path(@pegawai) %> |
+<%= link_to 'Back', pegawais_path %>
